@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+}
+.login-box{
+background: white; 
+padding: 30px 120px;
+width: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+border-radius: 10px;
+
+}
+.logo{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.login-box h{
+margin-bottom: 20px;
+}
+.login-box button img{
+    width: 18px;
+    margin-right: 10px;
+}
+.login-box button{
+    width: 250px;
+    padding: 12px 0;
+    display: flex;
+   /*align-items: center;*/
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid gray;
+    font-weight: 400;
+    cursor: pointer;
+}
+ #google{text-decoration: none;
+    color: black;
+    
+}
+
+ #apple{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login-box hr{
+    border:0;
+    height: 1px;
+    background: gray;
+    margin: 5px;
+}
+.login-box span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: white;
+    font-size: 14px;
+    margin-top: -15px;
+}
+.login-box input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid gray;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+::placeholder{
+    font-weight: 500;
+    color: gray;
+}
+.login-box form button{
+    background: black;
+    color: white;
+    border: 0;
+    margin-bottom: 15px;
+}
+#password{
+    font-weight: bold;
+ }
+.login-box p{
+    text-align: left;
+    font-size: 14px;
+    color: gray;
+    margin:40px 0 50px;
+}
+.login-box p a{
+    text-decoration: none;
+    color: blue;
+}
